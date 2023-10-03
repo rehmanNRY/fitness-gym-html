@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	position: absolute;
+	background-size: cover;
+	background-image: url(bg.png);
+}
+
+.navbar {
+	display: flex;
+	height: 15vh;
+	width: 100%;
+}
+
+.logo {
+	height: 130px;
+	width: 170px;
+}
+
+nav ul li {
+	flex: 1;
+	display: inline-block;
+	margin: 0px 22px;
+	padding-top: 9.5%;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 15.8px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	padding-left: 0px;
+}
+
+.content {
+	padding-left: 10%;
+	padding-top: 8%;
+}
+
+
+.content h3{
+	color: #fff;
+	font-size: 60px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+
+.content h1{
+	color: #fff;
+	font-size: 57px;
+	font-family: 'Oswald', sans-serif;
+	color: #e67e22;
+}
+
+.content h2{
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+
+.join-button {
+	text-decoration: none;
+	font-size: 17px;
+	text-align: center;
+	padding: 15px 27px;
+	cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 50px;
+    color: #fff;
+	background-color: #FFE53B;
+	background-image: linear-gradient(147deg, #FFE53B 0%, #cf5353 70%);
+    border: double;
+    border: 2px;
+    border: transparent;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+nav {
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-weight: 900;
+	position: relative;
+	font-size: 17px;
+}
+
+nav a:before {
+	content: "";
+	position: absolute;
+	top: 110%;
+	left: 0px;
+	width: 0%;
+	height: 2%;
+	border-bottom: 2.9px solid #fff;
+	transition: all 0.4s linear;
+}
+
+nav a:hover:before {
+	width: 100%;
+}
